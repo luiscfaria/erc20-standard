@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Sample ERC20 Token Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project comes with a ERC20 contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
+This contract was deployed to the Goerli Testnet.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+You can check the Contract Overview at: 
+https://goerli.etherscan.io/address/0x791647D4c862cC14896BffC22BD381F7b9CeB6aE

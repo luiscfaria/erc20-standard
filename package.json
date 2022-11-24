@@ -1,8 +1,13 @@
 {
-  "name": "ERC20",
+  "name": "ERC20-Standard",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "deploy:goerli": "hardhat run --network goerli scripts/deploy.js",
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "@openzeppelin/contracts": "^4.8.0",
